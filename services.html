@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services Design</title>
+  <link rel="stylesheet" href="services.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/our logo.png" alt="Company Logo">
+          </a>
+        </div>
+        
+    
+        <!-- Contact Info -->
+        <div class="contact-info1">
+            <a href="mailto:contact@sirvtech.site">Email: contact@sirvtech.site</a>
+            <a href="tel:+919980024685">Call: +91 9980024685</a>
+            <!-- <a href="#" class="btn btn-live-chat">Live Chat</a> -->
+            <a href="#" class="btn btn-live-chat" onclick="window.openCXGenieChatWidget();">Live Chat</a>
+    
+            <a href="#" class="btn btn-free-consultation">Free Consultation</a>
+          </div>
+          
+        <!-- Hamburger Menu -->
+        <div class="hamburger" id="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+    
+        <!-- Navigation Menu -->
+        <nav class="navbar" id="navbar">
+          <a href="#home">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+          <a href="#blog">Blog</a>
+        </nav>
+      </header>
+      <section class="hero-section">
+        <div class="hero-content">
+          <h1>Your Perfect Digital Services</h1>
+          <p>
+            Experience cutting-edge solutions tailored for your success.  
+            From development to design, we deliver excellence in every service.
+          </p>
+          <div class="hero-buttons">
+            <a href="tem.html" class="btn primary-btn">Explore Services</a>
+            <a href="#contact" class="btn secondary-btn">Get Started</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/service1.png" alt="Hero Graphic" />
+        </div>
+      </section>
+      
+  <div class="container">
+    <div class="sidebar">
+      <div class="menu-item" data-category="web-development">Web Development Services</div>
+      <div class="menu-item" data-category="design-services">Design Services</div>
+      <div class="menu-item" data-category="outsource">Outsource</div>
+      <div class="menu-item" data-category="digital-marketing">Digital Marketing</div>
+      <div class="menu-item" data-category="seo-services">SEO Services</div>
+      <div class="menu-item" data-category="business-packages">Business Packages</div>
+    </div>
+    <div class="content">
+      <div class="service-list" id="web-development">
+        <h3>Web Development Services</h3>
+        <ul>
+          <li>Website Development</li>
+          <li>Corporate Websites</li>
+          <li>Startup Websites</li>
+          <li>Landings and Promo Sites</li>
+          <li>E-commerce</li>
+          <li>Web Applications</li>
+          <li>WordPress Development</li>
+        </ul>
+      </div>
+      <div class="service-list" id="design-services">
+        <h3>Design Services</h3>
+        <ul>
+          <li>UI/UX Design</li>
+          <li>Graphic Design</li>
+          <li>Logo Design</li>
+          <li>Branding</li>
+        </ul>
+      </div>
+      <div class="service-list" id="outsource">
+        <h3>Outsource Services</h3>
+        <ul>
+          <li>Dedicated Teams</li>
+          <li>Project Management</li>
+        </ul>
+      </div>
+      <!-- Add more categories as needed -->
+    </div>
+  </div>
+  <section id="services-hero-section">
+    <h2 id="services-title">Our Services</h2>
+    <div id="services-container">
+        <!-- Service Card 1 -->
+        <div class="service-card">
+            <div class="service-card-inner">
+                <div class="service-card-front">
+                    <img src="icons/dedicated-team.svg" alt="Dedicated Team">
+                    <h3>Dedicated Team</h3>
+                </div>
+                <div class="service-card-back">
+                    <p>Tap into expertise and experience not available in-house.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="service-card">
+            <div class="service-card-inner">
+                <div class="service-card-front">
+                    <img src="icons/backend-developer.svg" alt="Backend Developer">
+                    <h3>Back-End Developer</h3>
+                </div>
+                <div class="service-card-back">
+                    <p>Find skilled back-end developers for your next project.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="service-card">
+            <div class="service-card-inner">
+                <div class="service-card-front">
+                    <img src="icons/frontend-developer.svg" alt="Frontend Developer">
+                    <h3>Front-End Developer</h3>
+                </div>
+                <div class="service-card-back">
+                    <p>Expert front-end developers for beautiful and responsive UI.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Card 4 -->
+        <div class="service-card">
+            <div class="service-card-inner">
+                <div class="service-card-front">
+                    <img src="icons/designer.svg" alt="Designer">
+                    <h3>Hire Designer</h3>
+                </div>
+                <div class="service-card-back">
+                    <p>Get professional designs tailored to your business needs.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Card 5 -->
+        <div class="service-card">
+            <div class="service-card-inner">
+                <div class="service-card-front">
+                    <img src="icons/project-manager.svg" alt="Project Manager">
+                    <h3>Project Manager</h3>
+                </div>
+                <div class="service-card-back">
+                    <p>Our PMs ensure smooth execution of projects from start to finish.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Card 6 -->
+        <div class="service-card">
+            <div class="service-card-inner">
+                <div class="service-card-front">
+                    <img src="icons/consultant.svg" alt="Consulting">
+                    <h3>Consulting</h3>
+                </div>
+                <div class="service-card-back">
+                    <p>Get expert advice to solve complex business challenges.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Card 7 -->
+        <div class="service-card">
+            <div class="service-card-inner">
+                <div class="service-card-front">
+                    <img src="icons/cloud-service.svg" alt="Cloud Services">
+                    <h3>Cloud Services</h3>
+                </div>
+                <div class="service-card-back">
+                    <p>Leverage cloud technology to enhance scalability and security.</p>
+                </div>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="service-card-inner">
+                <div class="service-card-front">
+                    <img src="icons/cloud-service.svg" alt="Cloud Services">
+                    <h3>Cloud Services</h3>
+                </div>
+                <div class="service-card-back">
+                    <p>Leverage cloud technology to enhance scalability and security.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  
+ 
+<script>
+   const menuItems = document.querySelectorAll('.menu-item');
+const serviceLists = document.querySelectorAll('.service-list');
+
+// Add hover and click events for sidebar
+menuItems.forEach((item) => {
+  item.addEventListener('mouseover', () => {
+    // Remove active class from all service lists
+    serviceLists.forEach((list) => list.classList.remove('active'));
+
+    // Show the corresponding service list
+    const category = item.getAttribute('data-category');
+    const activeList = document.getElementById(category);
+    if (activeList) {
+      activeList.classList.add('active');
+    }
+  });
+});
+const hamburger = document.getElementById('hamburger');
+    const navbar = document.getElementById('navbar');
+
+    hamburger.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+    });
+
+
+</script>
+
+<!-- Footer Section -->
+<footer class="footer-section">
+    <div class="footer-container">
+        <!-- Logo & About Section -->
+        <div class="footer-about">
+            <img class="footer-logo" src="images\our logo.png" alt="Company Logo">
+            <p class="footer-description">Empowering businesses with innovative digital solutions that drive growth and success. Let's create something amazing together!</p>
+        </div>
+  
+        <!-- Navigation Links -->
+        <div class="footer-nav">
+            <h4 class="footer-heading">Quick Links</h4>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Our Services</a></li>
+                      <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+  
+        <!-- Subscription Form -->
+        <div class="footer-subscription">
+            <h4 class="footer-heading">Stay Updated</h4>
+            <p class="footer-subtext">Subscribe to our newsletter for the latest updates, insights, and special offers.</p>
+            <form class="subscription-form">
+                <input type="email" class="email-input" placeholder="Enter your email" required>
+                <button type="submit" class="submit-button">Subscribe</button>
+            </form>
+        </div>
+  
+        <!-- Social Media Follow Buttons -->
+  <div class="footer-social">
+            <h4 class="footer-heading">Follow Us</h4>
+            <div class="social-buttons">
+              <a href="https://facebook.com" target="_blank" class="social-button facebook-button">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="social-button twitter-button">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="social-button linkedin-button">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" class="social-button instagram-button">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://github.com" target="_blank" class="social-button github-button">
+                <i class="fab fa-github"></i>
+            </a>
+            
+            </div>
+        </div>
+    </div>
+  
+    <!-- Copyright Section -->
+    <div class="footer-bottom">
+        <p>&copy; 2024 SirvTech Software Solutions. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+  
+</body>
+</html>
