@@ -183,7 +183,7 @@ body {
   }
 }
 /* Hero Section Styling */
-.hero {
+.hero  {
   height: 100vh; /* Full viewport height */
   background-image: url('images/wdcBannerImg.jpg'); /* Replace with your large image URL */
   background-size: cover;
@@ -197,7 +197,9 @@ body {
   text-align: left;
   min-height: 400px; /* Add min-height for smaller screens */
 }
-
+.hero h1{
+  color:red
+}
 /* Overlay for better text readability */
 .hero::before {
   content: '';
