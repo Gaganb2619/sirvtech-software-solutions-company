@@ -626,10 +626,10 @@ body {
       text-align: center;
   }
 
-  .footer-about, .footer-nav, .footer-subscription, .footer-social {
+  /* .footer-about, .footer-nav, .footer-subscription, .footer-social {
       margin-right: 0;
       margin-bottom: 30px;
-  }
+  } */
 
   .subscription-form {
       flex-direction: column;
