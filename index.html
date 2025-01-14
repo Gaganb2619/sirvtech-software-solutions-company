@@ -447,6 +447,29 @@
     });
     </script>
 
+  <script>
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+</script>
+<script>
+  document.addEventListener('keydown', function(e) {
+      // Disable F12
+      if (e.key === "F12") {
+          e.preventDefault();
+      }
+      // Disable Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U
+      if (e.ctrlKey && (e.key === "I" || e.key === "J" || e.key === "U")) {
+          e.preventDefault();
+      }
+      // Disable Ctrl+Shift+C
+      if (e.ctrlKey && e.shiftKey && e.key === "C") {
+          e.preventDefault();
+      }
+  });
+</script>
+
+
 <script src="https://widget.cxgenie.ai/widget.js" data-aid="cbe0f244-e612-4423-8e48-4981c86a069e"
 		
 		 data-lang="en"></script>
