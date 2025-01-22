@@ -696,11 +696,11 @@ body {
   margin: 0 auto;
 }
 
-/* .footer-about, .footer-nav, .footer-subscription, .footer-social {
+.footer-about, .footer-nav, .footer-subscription, .footer-social {
   flex: 1;
   margin-right: 30px;
   margin-bottom: 30px; /* Spacing for smaller screens */
-/* } */ */
+}
 
 .footer-about img.footer-logo {
   max-width: 150px;
@@ -824,11 +824,11 @@ body {
       text-align: center;
   }
 
-  /* .footer-about, .footer-nav, .footer-subscription, .footer-social {
+  .footer-about, .footer-nav, .footer-subscription, .footer-social {
       margin-right: 0;
       width: 100%;
       margin-bottom: 30px;
-  } */
+  }
 
   .subscription-form {
       flex-direction: column;
