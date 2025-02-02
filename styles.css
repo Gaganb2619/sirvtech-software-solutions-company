@@ -103,12 +103,16 @@ nav .navbar{
   /* background: red; */
   padding: 0 50px;
 }
-.navbar .logo a{
-  font-size: 30px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
+
+.logo img {
+  max-height: 50px;
+}
+
 nav .navbar .nav-links{
   line-height: 70px;
   height: 100%;
